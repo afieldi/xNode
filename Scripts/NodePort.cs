@@ -140,7 +140,7 @@ namespace XNode {
                     i--;
                     continue;
                 }
-                objs[i] = connectedPort.GetOutputValue();
+                objs[i] = connectedPort.GetInputValue();
             }
             return objs;
         }
